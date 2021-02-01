@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+a {
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #FFF;
+}
+
 html, body {
     margin: 0px;
     height: 100%;
+    font-family: 'Montserrat', sans-serif;
+
 }
 :root {
     --visibility: none;
@@ -15,6 +25,7 @@ html, body {
 }
 #menu-background {
     background-color: cyan;
+    margin-bottom: 10px;
 }
 #menu {
     width: 30%;
@@ -26,10 +37,20 @@ html, body {
     padding-bottom: 10px;
     list-style-type: none;
 }
+.content {
+    width: 300px;
+    height: 400px;
+    background-color:#000;
+    color: #FFF;
+    margin: 20px auto;
+    border-radius: 10%;
+    text-align: center;
+}
 
 footer div{
+    position:fixed;
     width: 100%;
-    margin-top: 120%;
+    bottom: 0;
     height: 40px;
     background-color: cyan;
 }
