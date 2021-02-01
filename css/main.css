@@ -15,6 +15,20 @@ html, body {
 :root {
     --visibility: none;
 }
+
+@media (min-width: 1024px) {
+   #menu ol {
+       padding: 3%;
+       margin-left: -170%;
+   }
+   #menu ol li{
+       display: inline;
+       margin-left: 2%;
+   }
+    #button-dropdown {
+        display: none;
+    }
+}
 #button-dropdown {
     background: url("../assets/button.png"
     ) no-repeat;
@@ -31,11 +45,14 @@ html, body {
     width: 30%;
     text-align: center;
     margin-left: 60%;
-    display: var(--visibility);
 }
 #menu li {
     padding-bottom: 10px;
     list-style-type: none;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
 }
 .content {
     width: 300px;
